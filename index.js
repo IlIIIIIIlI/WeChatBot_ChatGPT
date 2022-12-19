@@ -58,19 +58,20 @@ async function onMessage(msg) {
     console.log(`群名: ${topic} 发消息人: ${await contact.name()} 内容: ${content}`);
 
     // 群消息接收到以后
-    if (content) {
+    if (content.substr(0, 1) == '@') {
+      let contactContent = content.replace('@', '');
       let reply;
       if (config.DEFAULTBOT == '0') {
         // 天行聊天机器人逻辑
-        reply = await superagent.getGPTReply(content);
+        reply = await superagent.getGPTReply(contactContent);
         console.log('天行机器人回复：', reply);
       } else if (config.DEFAULTBOT == '1') {
         // 图灵聊天机器人
-        reply = await superagent.getGPTReply(content);
+        reply = await superagent.getGPTReply(contactContent);
         console.log('图灵机器人回复：', reply);
       } else if (config.DEFAULTBOT == '2') {
         // 天行对接的图灵聊
-        reply = await superagent.getGPTReply(content);
+        reply = await superagent.getGPTReply(contactContent);
         console.log('天行对接的图灵机器人回复：', reply);
       }
       try {

@@ -1,3 +1,13 @@
+# ChatGPT
+20221219 updates:
+1. 新增了以text-davinci-003为底的prompt模型
+2. 新增了群消息回复
+
+npm install之后，
+node index.js 即可运行
+
+本版本最大改动是通过利用https://www.npmjs.com/package/openai-api-node?activeTab=explore中的post源代码，对wechaty的node进行了拓展。将微信收到的信息直接作为prompt主题输入到text-davinci-003模型中，返回json中的choice[0].text即是模型输出。
+
 # WeChatBot
 20220903 updates:
 1. 新增了天行数据上全网热搜，世界时间，IP查询，网页图片，股票术语，AI新闻，获取摘要，二维码，汇率换算，励志名言，古代情诗，财经新闻，国际新闻，分类诗词和藏头诗词等接口功能

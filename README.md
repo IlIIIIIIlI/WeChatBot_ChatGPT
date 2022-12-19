@@ -14,7 +14,7 @@ node index.js 即可运行
 ![166232e96f3350d08a9f3fa32cb40a8](https://user-images.githubusercontent.com/68847099/208336748-79bcbd66-4574-42c1-afa4-b25319cad0fe.jpg)
 
 请勿用于商业用途！！！请勿用于商业用途！！！请勿用于商业用途！！！
-API请自行在superagent文件中的GPT函数下配置
+API请自行在superagent - index.js 文件中的GPT函数下配置
 
 # WeChatBot
 20220903 updates:

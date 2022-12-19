@@ -5,6 +5,7 @@
 
 npm install之后，
 node index.js 即可运行
+（通过@开头的信息唤出机器人）
 
 本版本最大改动是通过利用 https://www.npmjs.com/package/openai-api-node?activeTab=explore 中的post源代码，
 对wechaty的node进行了拓展。将微信收到的信息直接作为prompt主题输入到text-davinci-003模型中，返回json中的choice[0].text即是模型输出。

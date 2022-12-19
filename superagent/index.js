@@ -435,7 +435,7 @@ async function getTXTLReply(word) {
 }
 
 async function getGPTReply(word) {
-          var o = new OpenAiAPI("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")
+          var o = new OpenAiAPI("在此配置openai API")
           let result = o.CompletionsCreate(word)
           return result
     }

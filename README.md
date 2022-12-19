@@ -6,7 +6,15 @@
 npm install之后，
 node index.js 即可运行
 
-本版本最大改动是通过利用https://www.npmjs.com/package/openai-api-node?activeTab=explore中的post源代码，对wechaty的node进行了拓展。将微信收到的信息直接作为prompt主题输入到text-davinci-003模型中，返回json中的choice[0].text即是模型输出。
+本版本最大改动是通过利用https://www.npmjs.com/package/openai-api-node?activeTab=explore中的post源代码，
+对wechaty的node进行了拓展。将微信收到的信息直接作为prompt主题输入到text-davinci-003模型中，返回json中的choice[0].text即是模型输出。
+
+![abfcc089f9cd919975c4ea8bb7985f5](https://user-images.githubusercontent.com/68847099/208336720-aed991cc-3ca0-4b68-b0cc-1b55c928692f.jpg)
+![e86f4f04cbd911f4002838e77205777](https://user-images.githubusercontent.com/68847099/208336735-a3f7100c-88f4-47f2-881d-fba651f33a63.jpg)
+![166232e96f3350d08a9f3fa32cb40a8](https://user-images.githubusercontent.com/68847099/208336748-79bcbd66-4574-42c1-afa4-b25319cad0fe.jpg)
+
+请勿用于商业用途！！！请勿用于商业用途！！！请勿用于商业用途！！！
+API请自行在superagent文件中的GPT函数下配置
 
 # WeChatBot
 20220903 updates:

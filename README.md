@@ -1,4 +1,4 @@
-# ChatGPT
+# ChatGPT 微信机器人
 20221219 updates:
 1. 新增了以text-davinci-003为底的prompt模型
 2. 新增了群消息回复
@@ -11,6 +11,7 @@ node index.js 即可运行
 
 ![abfcc089f9cd919975c4ea8bb7985f5](https://user-images.githubusercontent.com/68847099/208336720-aed991cc-3ca0-4b68-b0cc-1b55c928692f.jpg)
 ![e86f4f04cbd911f4002838e77205777](https://user-images.githubusercontent.com/68847099/208336735-a3f7100c-88f4-47f2-881d-fba651f33a63.jpg)
+![dccab879e576bdabf79fd7ced2d3c6e](https://user-images.githubusercontent.com/68847099/208337217-293ac4e8-20bf-499f-8001-0520d6939062.jpg)
 ![166232e96f3350d08a9f3fa32cb40a8](https://user-images.githubusercontent.com/68847099/208336748-79bcbd66-4574-42c1-afa4-b25319cad0fe.jpg)
 
 请勿用于商业用途！！！请勿用于商业用途！！！请勿用于商业用途！！！

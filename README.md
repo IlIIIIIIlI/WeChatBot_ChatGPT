@@ -6,7 +6,7 @@
 npm install之后，
 node index.js 即可运行
 
-本版本最大改动是通过利用https://www.npmjs.com/package/openai-api-node?activeTab=explore中的post源代码，
+本版本最大改动是通过利用 https://www.npmjs.com/package/openai-api-node?activeTab=explore 中的post源代码，
 对wechaty的node进行了拓展。将微信收到的信息直接作为prompt主题输入到text-davinci-003模型中，返回json中的choice[0].text即是模型输出。
 
 ![abfcc089f9cd919975c4ea8bb7985f5](https://user-images.githubusercontent.com/68847099/208336720-aed991cc-3ca0-4b68-b0cc-1b55c928692f.jpg)
